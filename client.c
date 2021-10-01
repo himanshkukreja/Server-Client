@@ -42,6 +42,7 @@ int main()
 	int l = strlen(str);
 
 	// send string to server side
+	// very good
 	write(sock, str, sizeof(str));
 
 	// read string sent by server
