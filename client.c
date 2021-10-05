@@ -1,5 +1,6 @@
 // C client code to send string to reverse
 // REVERSES A STRING !
+// hi
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <stdio.h>
