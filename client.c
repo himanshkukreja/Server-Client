@@ -1,5 +1,5 @@
 // C client code to send string to reverse
-// REVERSES A STRING !
+reverse a string
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <stdio.h>
@@ -31,7 +31,6 @@ int main()
 	serv_addr.sin_port = htons(PORT);
 
 	// Convert IPv4 and IPv6 addresses from
-	// text to binary form 127.0.0.1 is local
 	// host IP address, this address should be
 	// your system local host IP address
 	//inet_pton(AF_INET, "127.0.0.1",&serv_addr.sin_addr);
